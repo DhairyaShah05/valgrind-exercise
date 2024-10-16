@@ -23,12 +23,12 @@
 # Clean and start over:
   rm -rf build/
 ```
-## Answers to the assignment:
+# Answers to the assignment:
 
-# What happens when the executable is linked statically? Does Valgrind still detect those same bugs? 
+## What happens when the executable is linked statically? Does Valgrind still detect those same bugs? 
 
-# Yes, when valgrind is linked statically, Valgrind will detect the same bugs as well, if not more depending on the compilation of static llibraries. 
+## Yes, when valgrind is linked statically, Valgrind will detect the same bugs as well, if not more depending on the compilation of static llibraries. 
 
-# Why or why not?
+## Why or why not?
 
-# Valgrind will detect the same errors as the process of checking memory usage is independant of the program is linked, so no matter how the program is linked - statically or dynamically, Valgrind will always detect memory based errors. 
+## Valgrind will detect the same errors as the process of checking memory usage is independant of the program is linked, so no matter how the program is linked - statically or dynamically, Valgrind will always detect memory based errors. 
